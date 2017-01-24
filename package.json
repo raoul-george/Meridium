@@ -1,0 +1,25 @@
+{
+  "name": "meridium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "serve-static": "^1.11.1",
+    "connect": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raoul-george/Meridium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raoul-george/Meridium/issues"
+  },
+  "homepage": "https://github.com/raoul-george/Meridium#readme"
+}
