@@ -3,8 +3,7 @@ define(function (require) {
     'use strict';
 
     var $ = require('jquery');
-
-    var view = require("text!./view.html");
+    var Test = require('./test');
 
     var proto = Object.create(HTMLElement.prototype);
 
@@ -12,11 +11,7 @@ define(function (require) {
 
     proto.createdCallback = function () {
     	debugger
-        //Initializing variables
-        this.element = this;
-        this.element.innerHTML = view;
-
-       
+        new Test(this);
     };
 
 
